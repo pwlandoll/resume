@@ -21,18 +21,18 @@
 % loading fonts
 \RequirePackage{fontspec}
 % Main document font
-\setmainfont[
-  Path = fonts/Main/ ,
-  Extension = .otf ,
-  UprightFont = *-regular ,
-  BoldFont = *-bold ,
-  ItalicFont = *-italic ,
-  BoldItalicFont = *-bolditalic ,
-  SmallCapsFont = Fontin-SmallCaps
-]{texgyretermes}
+%\setmainfont[
+%  Path = fonts/Main/ ,
+%  Extension = .otf ,
+%  UprightFont = *-regular ,
+%  BoldFont = *-bold ,
+%  ItalicFont = *-italic ,
+%  BoldItalicFont = *-bolditalic ,
+%  SmallCapsFont = Fontin-SmallCaps
+%]{texgyretermes}
 
 \RequirePackage[
-	a4paper,
+	%a4paper,
 	left=0.8in,
 	right=0.8in,
 	top=0.70in,
@@ -47,6 +47,8 @@
 \setlist[itemize]{topsep=0.25em, leftmargin=1.5pc}
 \setlist[enumerate]{topsep=0.25em, leftmargin=1.5pc}
 \RequirePackage[super]{nth}
+
+\RequirePackage{multicol}
 
 \titleformat{\section}         % Customise the \section command 
   {\Large\scshape\raggedright} % Make the \section headers large (\Large),
