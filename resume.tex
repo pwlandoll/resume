@@ -1,80 +1,74 @@
 % !TEX program = xelatex
 
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 
 \begin{document}
+\title{Landoll, Peter resume}
+\author{Peter Landoll}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Bin Yuan}
+\name{Peter Landoll}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{pwlandoll@gmail.com} \textperiodcentered \
+  \phone{(216) 308-4619} \textperiodcentered \
+  \linkedin[pwlandoll]{https://www.linkedin.com/in/pwlandoll}
+}
+\basicInfo{
+  \github[github.com/pwlandoll]{https://github.com/pwlandoll} \textperiodcentered \
+  \homepage[pwlandoll.me]{http://pwlandoll.me}
+}
 
-\section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+{\centering
+Systems engineer and software developer, specializing in Red Hat Linux and Bash/Python scripting.
+}
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\datedsubsection{\textbf{American Greetings Interactive, Inc.} Westlake, OH}{2016 -- Present}
+\role{Associate Systems Engineer I}{Manager: Joel Lee}
+Junior-level system administrator / DevOps engineer
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Revised and standardized build and deployment processes utilizing Ansible and Jenkins
+  \item Maintained Linux Virtual Machine infrastructure in colocation data center and AWS
+  \item Managed servers with custom configuration management software and with Ansible
+  \item Performed code change control operations for Python \& Oracle Commerce platform websites
+  \item Developed tools for automated software deployments
+  \item Supported daily developer activities, including troubleshooting applications
+  \item Transitioned organization from Atlassian HipChat to Slack
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{John Carroll University IT Services}, University Heights, OH}{2012 -- 2016}
+\textit{Student Network Technician}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Configured, maintained, updated existing Cisco network infrastructure
+\end{itemize}
+\textit{Student PC Technician}
+\begin{itemize}
+  \item Performed software \& hardware repairs on student \& faculty devices
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+\datedsubsection{\textbf{American Greetings Interactive, Inc.} Brooklyn, OH}{Summer 2015}
+\role{Web Development Intern}{Manager: Mark Prugh}
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+  \item Worked with bugfix team on multiple websites using custom Python MVC framework
+  \item Submitted code through review and into production
 \end{itemize}
-
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
 
 \section{\faCogs\ Skills}
+%\begin{multicols}{2}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+  \item Proficiency in scripting in Python and Bash for development and deployment automation
+  \item Experience with basic Go language programming, testing, \& build process
+  \item Proficiency in Linux server management using command line
+  \item Ability to communicate with a focus on empathy and cooperation
 \end{itemize}
+%\end{multicols}
 
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{John Carroll University}, University Heights, OH}{2012 -- 2016}
+\textit{B.S.} in Mathematics \& Computer Science
+\par Courses in software development and data science
+\datedsubsection{\textbf{National University of Ireland}, Galway, Ireland}{Fall 2014}
+Study Abroad program with John Carroll University
 
-\section{\faInfo\ Miscellaneous}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
-\end{itemize}
-
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
