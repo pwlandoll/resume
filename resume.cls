@@ -103,6 +103,12 @@
   \ifthenelse{\isempty{#1}}%
     {\href{#2}{#2}}
     {\href{#2}{#1}}}
+% defines one's GitLab
+% usage: \gitlab{<gitlab}
+\newcommand{\gitlab}[2][]{\faGitlab\
+  \ifthenelse{\isempty{#1}}%
+    {\href{#2}{#2}}
+    {\href{#2}{#1}}}
 % defines one's homepage
 % usage: \homepage{<homepage>}
 \newcommand{\homepage}[2][]{\faLink\ 
